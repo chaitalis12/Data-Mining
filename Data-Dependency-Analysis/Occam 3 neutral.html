@@ -1,0 +1,650 @@
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+	<link rel="stylesheet" href="Occam%203%20neutral_files/base.css" type="text/css">
+	<title>Occam 3</title>
+</head>
+
+<body>
+<table id="PSUPage" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr valign="top">
+
+<!-- body -->
+<td id="PSUBody">
+
+<!-- psu header -->
+<!-- psu branding -->
+<div id="PSUBrandingBackground">
+<table id="PSUBranding" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+    <td id="PSULogo"><a href="http://www.pdx.edu/" title="Portland State University | Home"><img alt="" src="Occam%203%20neutral_files/psu-logo.png" border="0"></a></td>
+<td id="PSUHeader">
+
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- /psu branding -->
+<!-- /psu header -->
+
+<div id="PSUContentBackground">
+<div id="PSUContent">
+<table id="Occam" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td id="PSUColumnMain">
+<a href="http://dmit.sysc.pdx.edu/"><img src="Occam%203%20neutral_files/occam_logo.jpg" width="156" height="52" border="0"></a>&nbsp;
+<span style="vertical-align: 60%">version 3.4.0 &nbsp; — &nbsp; 
+Tue Feb  4 22:32:15 2020</span><br>
+
+<pre>Warning: input data cardinality for variable Genre (Ge) is 1, but was specified as 2. The lower value will be used.
+Warning: input data cardinality for variable Year (Yr) is 1, but was specified as 2. The lower value will be used.
+Warning: input data cardinality for variable Studio (St) is 1, but was specified as 2. The lower value will be used.
+Warning: input data cardinality for variable Budget (Bu) is 1, but was specified as 5. The lower value will be used.
+</pre>
+<hr><p>
+</p><div class="data">
+<br><table cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><td>Option settings:</td></tr>
+<tr><td>action</td><td>search</td></tr>
+<tr><td>nominal</td><td>Genre	,4,1,Ge,[1(1,2);1(3,4)]</td></tr>
+<tr><td>nominal</td><td>Year	,5,1,Yr,[1(1,2);1(3,4,5)]</td></tr>
+<tr><td>nominal</td><td>Studio	,5,1,St,[1(1,2);1(3,4,5)]</td></tr>
+<tr><td>nominal</td><td>Budget	,10,1,Bu,[1(1,2);1(3,4);1(5,6);1(7,8);1(9,10)]</td></tr>
+<tr><td>nominal</td><td>Gross	,10,1,Gr,</td></tr>
+<tr><td>nominal</td><td>IMDB	,9,1,IM,</td></tr>
+<tr><td>nominal</td><td>Overseas	,10,1,Ov</td></tr>
+<tr><td>nominal</td><td>Profit	,10,2,Pr,</td></tr>
+<tr><td>nominal</td><td>GrossUS	,10,1,GRU,</td></tr>
+<tr><td>no-frequency</td><td>Y</td></tr>
+<tr><td>ipf-maxdev</td><td>           0.2</td></tr>
+<tr><td>ipf-maxit</td><td>           266</td></tr>
+<tr><td>Alpha threshold</td><td>0.05</td></tr>
+<tr><td>Data Lines Read</td><td>608</td></tr>
+<tr><td>Input data file</td><td>BinnedOccamOutput_HW 4.10.xlsm.txt</td></tr>
+<tr><td>Starting model</td><td>bottom</td></tr>
+<tr><td>Search direction</td><td>up</td></tr>
+<tr><td>Ref model</td><td>bottom</td></tr>
+<tr><td>Models to consider</td><td>loopless</td></tr>
+<tr><td>Search width</td><td>3</td></tr>
+<tr><td>Search levels</td><td>7</td></tr>
+<tr><td>Search sort by</td><td>aic</td></tr>
+<tr><td>Search preference</td><td>descending</td></tr>
+<tr><td>Report sort by</td><td>information</td></tr>
+<tr><td>Report preference</td><td>descending</td></tr>
+</tbody></table>
+<br><br><table cellspacing="0" cellpadding="0" border="0">
+
+<tbody><tr><td width="170" valign="top">State Space Size</td><td>   90000</td></tr>
+
+<tr><td width="170" valign="top">Sample Size</td><td>     608</td></tr>
+
+<tr><td width="170" valign="top">H(data)</td><td> 9.13484</td></tr>
+
+<tr><td width="170" valign="top">H(IV)</td><td> 8.53525</td></tr>
+
+<tr><td width="170" valign="top">H(DV)</td><td>  3.3219</td></tr>
+
+<tr><td width="170" valign="top">T(IV:DV)</td><td>  2.7223</td></tr>
+
+<tr><td width="170" valign="top">IVs in use (8)</td><td> Ge Yr St Bu Gr Im Ov Gru</td></tr>
+
+<tr><td width="170" valign="top">DV</td><td>Pr</td></tr>
+
+</tbody></table>
+<pre>Searching levels:
+1 : 8 new models, 3 kept; 9 total models, 4 total kept; 0 kb memory used;  0.0 seconds, 0.0 total
+2 : 18 new models, 3 kept; 27 total models, 7 total kept; 512 kb memory used;  0.0 seconds, 0.0 total
+3 : 15 new models, 3 kept; 42 total models, 10 total kept; 512 kb memory used;  0.0 seconds, 0.0 total
+4 : 12 new models, 3 kept; 54 total models, 13 total kept; 888 kb memory used;  0.0 seconds, 0.0 total
+5 : 10 new models, 3 kept; 64 total models, 16 total kept; 1264 kb memory used;  0.0 seconds, 0.1 total
+6 : 7 new models, 3 kept; 71 total models, 19 total kept; 1452 kb memory used;  0.0 seconds, 0.1 total
+7 : 3 new models, 3 kept; 74 total models, 22 total kept; 1624 kb memory used;  0.0 seconds, 0.1 total
+</pre><br>
+<table cellspacing="0" cellpadding="0" border="0">
+<tbody><tr><th align="left">ID</th><th align="left">MODEL</th><th width="80" align="left">Level</th>
+<th width="80" align="left">H</th>
+<th width="80" align="left">dDF</th>
+<th width="80" align="left">dLR</th>
+<th width="80" align="left">Alpha</th>
+<th width="80" align="left">Inf</th>
+<th width="80" align="left">%dH(DV)</th>
+<th width="80" align="left">dAIC</th>
+<th width="80" align="left">dBIC</th>
+<th width="80" align="left">Inc.Alpha</th>
+<th width="80" align="left">Prog.</th>
+<th width="80" align="left">%C(Data)</th>
+<th width="80" align="left">%cover</th>
+</tr>
+<tr><td>22 </td><td>IV:GeYrStBuGrImOvPr</td><td>       7</td>
+<td>      9.1348</td>
+<td>          8091</td>
+<td>   2294.5353</td>
+<td>      1.0000</td>
+<td>1.00000000</td>
+<td>     81.9501</td>
+<td> -13887.4647</td>
+<td> -49570.1896</td>
+<td>      1.0000</td>
+<td>            19</td>
+<td>     74.0132</td>
+<td>     46.2222</td>
+</tr>
+<tr class="r1"><td>21 </td><td>IV:GeYrStBuGrImPrGru</td><td>       7</td>
+<td>      9.1381</td>
+<td>          8091</td>
+<td>   2291.7627</td>
+<td>      1.0000</td>
+<td>0.99879166</td>
+<td>     81.8511</td>
+<td> -13890.2373</td>
+<td> -49572.9622</td>
+<td>      1.0000</td>
+<td>            18</td>
+<td>     73.8487</td>
+<td>     46.1111</td>
+</tr>
+<tr><td>20 </td><td>IV:GeYrStBuGrOvPrGru</td><td>       7</td>
+<td>     10.6372</td>
+<td>          8991</td>
+<td>   1028.2773</td>
+<td>      1.0000</td>
+<td>0.44814186</td>
+<td>     36.7253</td>
+<td> -16953.7227</td>
+<td> -56605.6050</td>
+<td>      1.0000</td>
+<td>            18</td>
+<td>     34.7039</td>
+<td>     10.3000</td>
+</tr>
+<tr class="r1"><td>19 </td><td>IV:GeYrStBuGrOvPr</td><td>       6</td>
+<td>     10.6523</td>
+<td>           891</td>
+<td>   1015.5132</td>
+<td>      0.0021</td>
+<td>0.44257902</td>
+<td>     36.2694</td>
+<td>   -766.4868</td>
+<td>  -4695.9526</td>
+<td>      0.2672</td>
+<td>            14</td>
+<td>     34.3750</td>
+<td>     99.0000</td>
+</tr>
+<tr><td>18 </td><td>IV:GeYrStBuGrPrGru</td><td>       6</td>
+<td>     10.6586</td>
+<td>           891</td>
+<td>   1010.1704</td>
+<td>      0.0031</td>
+<td>0.44025053</td>
+<td>     36.0786</td>
+<td>   -771.8296</td>
+<td>  -4701.2954</td>
+<td>      0.3118</td>
+<td>            14</td>
+<td>     34.2105</td>
+<td>     99.0000</td>
+</tr>
+<tr class="r1"><td>17 </td><td>IV:GeYrStBuGrImPr</td><td>       6</td>
+<td>     10.7147</td>
+<td>           801</td>
+<td>    962.9496</td>
+<td>      0.0000</td>
+<td>0.41967084</td>
+<td>     34.3921</td>
+<td>   -639.0504</td>
+<td>  -4171.6005</td>
+<td>      0.0542</td>
+<td>            14</td>
+<td>     33.3882</td>
+<td>    100.0000</td>
+</tr>
+<tr><td>16 </td><td>IV:GeStBuGrImPr</td><td>       5</td>
+<td>     10.7147</td>
+<td>           801</td>
+<td>    962.9496</td>
+<td>      0.0000</td>
+<td>0.41967084</td>
+<td>     34.3921</td>
+<td>   -639.0504</td>
+<td>  -4171.6005</td>
+<td>      0.0542</td>
+<td>            13</td>
+<td>     33.3882</td>
+<td>    100.0000</td>
+</tr>
+<tr class="r1"><td>15 </td><td>IV:GeYrBuGrImPr</td><td>       5</td>
+<td>     10.7147</td>
+<td>           801</td>
+<td>    962.9496</td>
+<td>      0.0000</td>
+<td>0.41967084</td>
+<td>     34.3921</td>
+<td>   -639.0504</td>
+<td>  -4171.6005</td>
+<td>      0.0542</td>
+<td>            12</td>
+<td>     33.3882</td>
+<td>    100.0000</td>
+</tr>
+<tr><td>14 </td><td>IV:GeYrStBuGrPr</td><td>       5</td>
+<td>     11.6425</td>
+<td>            81</td>
+<td>    180.9486</td>
+<td>      0.0000</td>
+<td>0.07886066</td>
+<td>      6.4626</td>
+<td>     18.9486</td>
+<td>   -338.2756</td>
+<td>      1.0000</td>
+<td>            11</td>
+<td>     19.0789</td>
+<td>    100.0000</td>
+</tr>
+<tr class="r1"><td>13 </td><td>IV:GeStBuGrPr</td><td>       4</td>
+<td>     11.6425</td>
+<td>            81</td>
+<td>    180.9486</td>
+<td>      0.0000</td>
+<td>0.07886066</td>
+<td>      6.4626</td>
+<td>     18.9486</td>
+<td>   -338.2756</td>
+<td>      1.0000</td>
+<td>             9</td>
+<td>     19.0789</td>
+<td>    100.0000</td>
+</tr>
+<tr><td>12 </td><td>IV:GeYrBuGrPr</td><td>       4</td>
+<td>     11.6425</td>
+<td>            81</td>
+<td>    180.9486</td>
+<td>      0.0000</td>
+<td>0.07886066</td>
+<td>      6.4626</td>
+<td>     18.9486</td>
+<td>   -338.2756</td>
+<td>      1.0000</td>
+<td>             8</td>
+<td>     19.0789</td>
+<td>    100.0000</td>
+</tr>
+<tr class="r1"><td>11 </td><td>IV:GeYrStGrPr</td><td>       4</td>
+<td>     11.6425</td>
+<td>            81</td>
+<td>    180.9486</td>
+<td>      0.0000</td>
+<td>0.07886066</td>
+<td>      6.4626</td>
+<td>     18.9486</td>
+<td>   -338.2756</td>
+<td>      1.0000</td>
+<td>             8</td>
+<td>     19.0789</td>
+<td>    100.0000</td>
+</tr>
+<tr><td>10 </td><td>IV:GeBuGrPr</td><td>       3</td>
+<td>     11.6425</td>
+<td>            81</td>
+<td>    180.9486</td>
+<td>      0.0000</td>
+<td>0.07886066</td>
+<td>      6.4626</td>
+<td>     18.9486</td>
+<td>   -338.2756</td>
+<td>      1.0000</td>
+<td>             6</td>
+<td>     19.0789</td>
+<td>    100.0000</td>
+</tr>
+<tr class="r1"><td>9 </td><td>IV:GeStGrPr</td><td>       3</td>
+<td>     11.6425</td>
+<td>            81</td>
+<td>    180.9486</td>
+<td>      0.0000</td>
+<td>0.07886066</td>
+<td>      6.4626</td>
+<td>     18.9486</td>
+<td>   -338.2756</td>
+<td>      1.0000</td>
+<td>             5</td>
+<td>     19.0789</td>
+<td>    100.0000</td>
+</tr>
+<tr><td>8 </td><td>IV:GeYrGrPr</td><td>       3</td>
+<td>     11.6425</td>
+<td>            81</td>
+<td>    180.9486</td>
+<td>      0.0000</td>
+<td>0.07886066</td>
+<td>      6.4626</td>
+<td>     18.9486</td>
+<td>   -338.2756</td>
+<td>      1.0000</td>
+<td>             6</td>
+<td>     19.0789</td>
+<td>    100.0000</td>
+</tr>
+<tr class="r1"><td>7 </td><td>IV:BuGrPr</td><td>       2</td>
+<td>     11.6425</td>
+<td>            81</td>
+<td>    180.9486</td>
+<td>      0.0000</td>
+<td>0.07886066</td>
+<td>      6.4626</td>
+<td>     18.9486</td>
+<td>   -338.2756</td>
+<td>      0.0000</td>
+<td>             2</td>
+<td>     19.0789</td>
+<td>    100.0000</td>
+</tr>
+<tr><td>6 </td><td>IV:GeGrPr</td><td>       2</td>
+<td>     11.6425</td>
+<td>            81</td>
+<td>    180.9486</td>
+<td>      0.0000</td>
+<td>0.07886066</td>
+<td>      6.4626</td>
+<td>     18.9486</td>
+<td>   -338.2756</td>
+<td>      1.0000</td>
+<td>             4</td>
+<td>     19.0789</td>
+<td>    100.0000</td>
+</tr>
+<tr class="r1"><td>5 </td><td>IV:StGrPr</td><td>       2</td>
+<td>     11.6425</td>
+<td>            81</td>
+<td>    180.9486</td>
+<td>      0.0000</td>
+<td>0.07886066</td>
+<td>      6.4626</td>
+<td>     18.9486</td>
+<td>   -338.2756</td>
+<td>      1.0000</td>
+<td>             4</td>
+<td>     19.0789</td>
+<td>    100.0000</td>
+</tr>
+<tr><td>4*</td><td>IV:GrPr</td><td>       1</td>
+<td>     11.6425</td>
+<td>            81</td>
+<td>    180.9486</td>
+<td>      0.0000</td>
+<td>0.07886066</td>
+<td>      6.4626</td>
+<td>     18.9486</td>
+<td>   -338.2756</td>
+<td>      0.0000</td>
+<td>             1</td>
+<td>     19.0789</td>
+<td>    100.0000</td>
+</tr>
+<tr class="r1"><td>3*</td><td>IV:ImPr</td><td>       1</td>
+<td>     11.6797</td>
+<td>            72</td>
+<td>    149.5648</td>
+<td>      0.0000</td>
+<td>0.06518305</td>
+<td>      5.3418</td>
+<td>      5.5648</td>
+<td>   -311.9678</td>
+<td>      0.0000</td>
+<td>             1</td>
+<td>     18.5855</td>
+<td>    100.0000</td>
+</tr>
+<tr><td>2 </td><td>IV:BuPr</td><td>       1</td>
+<td>     11.8571</td>
+<td>             0</td>
+<td>      0.0000</td>
+<td>      1.0000</td>
+<td>0.00000000</td>
+<td>     -0.0000</td>
+<td>      0.0000</td>
+<td>      0.0000</td>
+<td>      1.0000</td>
+<td>             1</td>
+<td>     10.0329</td>
+<td>    100.0000</td>
+</tr>
+<tr class="r1"><td>1*</td><td>IV:Pr</td><td>       0</td>
+<td>     11.8571</td>
+<td>             0</td>
+<td>      0.0000</td>
+<td>      1.0000</td>
+<td>0.00000000</td>
+<td>      0.0000</td>
+<td>      0.0000</td>
+<td>      0.0000</td>
+<td>      0.0000</td>
+<td>             0</td>
+<td>     10.0329</td>
+<td>    100.0000</td>
+</tr>
+<tr><th align="left">ID</th><th align="left">MODEL</th><th width="80" align="left">Level</th>
+<th width="80" align="left">H</th>
+<th width="80" align="left">dDF</th>
+<th width="80" align="left">dLR</th>
+<th width="80" align="left">Alpha</th>
+<th width="80" align="left">Inf</th>
+<th width="80" align="left">%dH(DV)</th>
+<th width="80" align="left">dAIC</th>
+<th width="80" align="left">dBIC</th>
+<th width="80" align="left">Inc.Alpha</th>
+<th width="80" align="left">Prog.</th>
+<th width="80" align="left">%C(Data)</th>
+<th width="80" align="left">%cover</th>
+</tr>
+<tr><td colspan="8"><br><br><b>Best Model(s) by dBIC:</b></td></tr>
+<tr><td>2 </td><td>IV:BuPr</td><td>       1</td>
+<td>     11.8571</td>
+<td>             0</td>
+<td>      0.0000</td>
+<td>      1.0000</td>
+<td>0.00000000</td>
+<td>     -0.0000</td>
+<td>      0.0000</td>
+<td>      0.0000</td>
+<td>      1.0000</td>
+<td>             1</td>
+<td>     10.0329</td>
+<td>    100.0000</td>
+</tr>
+<tr><td colspan="8"><b>Best Model(s) by dAIC:</b></td></tr>
+<tr><td>14 </td><td>IV:GeYrStBuGrPr</td><td>       5</td>
+<td>     11.6425</td>
+<td>            81</td>
+<td>    180.9486</td>
+<td>      0.0000</td>
+<td>0.07886066</td>
+<td>      6.4626</td>
+<td>     18.9486</td>
+<td>   -338.2756</td>
+<td>      1.0000</td>
+<td>            11</td>
+<td>     19.0789</td>
+<td>    100.0000</td>
+</tr>
+<tr><td>13 </td><td>IV:GeStBuGrPr</td><td>       4</td>
+<td>     11.6425</td>
+<td>            81</td>
+<td>    180.9486</td>
+<td>      0.0000</td>
+<td>0.07886066</td>
+<td>      6.4626</td>
+<td>     18.9486</td>
+<td>   -338.2756</td>
+<td>      1.0000</td>
+<td>             9</td>
+<td>     19.0789</td>
+<td>    100.0000</td>
+</tr>
+<tr><td>12 </td><td>IV:GeYrBuGrPr</td><td>       4</td>
+<td>     11.6425</td>
+<td>            81</td>
+<td>    180.9486</td>
+<td>      0.0000</td>
+<td>0.07886066</td>
+<td>      6.4626</td>
+<td>     18.9486</td>
+<td>   -338.2756</td>
+<td>      1.0000</td>
+<td>             8</td>
+<td>     19.0789</td>
+<td>    100.0000</td>
+</tr>
+<tr><td>11 </td><td>IV:GeYrStGrPr</td><td>       4</td>
+<td>     11.6425</td>
+<td>            81</td>
+<td>    180.9486</td>
+<td>      0.0000</td>
+<td>0.07886066</td>
+<td>      6.4626</td>
+<td>     18.9486</td>
+<td>   -338.2756</td>
+<td>      1.0000</td>
+<td>             8</td>
+<td>     19.0789</td>
+<td>    100.0000</td>
+</tr>
+<tr><td>10 </td><td>IV:GeBuGrPr</td><td>       3</td>
+<td>     11.6425</td>
+<td>            81</td>
+<td>    180.9486</td>
+<td>      0.0000</td>
+<td>0.07886066</td>
+<td>      6.4626</td>
+<td>     18.9486</td>
+<td>   -338.2756</td>
+<td>      1.0000</td>
+<td>             6</td>
+<td>     19.0789</td>
+<td>    100.0000</td>
+</tr>
+<tr><td>9 </td><td>IV:GeStGrPr</td><td>       3</td>
+<td>     11.6425</td>
+<td>            81</td>
+<td>    180.9486</td>
+<td>      0.0000</td>
+<td>0.07886066</td>
+<td>      6.4626</td>
+<td>     18.9486</td>
+<td>   -338.2756</td>
+<td>      1.0000</td>
+<td>             5</td>
+<td>     19.0789</td>
+<td>    100.0000</td>
+</tr>
+<tr><td>8 </td><td>IV:GeYrGrPr</td><td>       3</td>
+<td>     11.6425</td>
+<td>            81</td>
+<td>    180.9486</td>
+<td>      0.0000</td>
+<td>0.07886066</td>
+<td>      6.4626</td>
+<td>     18.9486</td>
+<td>   -338.2756</td>
+<td>      1.0000</td>
+<td>             6</td>
+<td>     19.0789</td>
+<td>    100.0000</td>
+</tr>
+<tr><td>7 </td><td>IV:BuGrPr</td><td>       2</td>
+<td>     11.6425</td>
+<td>            81</td>
+<td>    180.9486</td>
+<td>      0.0000</td>
+<td>0.07886066</td>
+<td>      6.4626</td>
+<td>     18.9486</td>
+<td>   -338.2756</td>
+<td>      0.0000</td>
+<td>             2</td>
+<td>     19.0789</td>
+<td>    100.0000</td>
+</tr>
+<tr><td>6 </td><td>IV:GeGrPr</td><td>       2</td>
+<td>     11.6425</td>
+<td>            81</td>
+<td>    180.9486</td>
+<td>      0.0000</td>
+<td>0.07886066</td>
+<td>      6.4626</td>
+<td>     18.9486</td>
+<td>   -338.2756</td>
+<td>      1.0000</td>
+<td>             4</td>
+<td>     19.0789</td>
+<td>    100.0000</td>
+</tr>
+<tr><td>5 </td><td>IV:StGrPr</td><td>       2</td>
+<td>     11.6425</td>
+<td>            81</td>
+<td>    180.9486</td>
+<td>      0.0000</td>
+<td>0.07886066</td>
+<td>      6.4626</td>
+<td>     18.9486</td>
+<td>   -338.2756</td>
+<td>      1.0000</td>
+<td>             4</td>
+<td>     19.0789</td>
+<td>    100.0000</td>
+</tr>
+<tr><td>4*</td><td>IV:GrPr</td><td>       1</td>
+<td>     11.6425</td>
+<td>            81</td>
+<td>    180.9486</td>
+<td>      0.0000</td>
+<td>0.07886066</td>
+<td>      6.4626</td>
+<td>     18.9486</td>
+<td>   -338.2756</td>
+<td>      0.0000</td>
+<td>             1</td>
+<td>     19.0789</td>
+<td>    100.0000</td>
+</tr>
+<tr><td colspan="8"><b>Best Model(s) by Information, with all Inc. Alpha &lt; 0.05</b>:</td></tr>
+<tr><td>4*</td><td>IV:GrPr</td><td>       1</td>
+<td>     11.6425</td>
+<td>            81</td>
+<td>    180.9486</td>
+<td>      0.0000</td>
+<td>0.07886066</td>
+<td>      6.4626</td>
+<td>     18.9486</td>
+<td>   -338.2756</td>
+<td>      0.0000</td>
+<td>             1</td>
+<td>     19.0789</td>
+<td>    100.0000</td>
+</tr>
+</tbody></table><br>
+</div>
+<br>Run time: 0.147993 seconds<br>
+</td></tr></tbody></table></div></div>
+
+<div id="PSUFooterBackground">
+
+<div id="PSUFooter"><a href="http://www.pdx.edu/copyright.html" title="Portland State Copyright Information">© 2000-2019</a>
+<p>OCCAM is now OPEN SOURCE. The code is available as <a href="https://github.com/occam-ra/occam">a project on GitHub</a>.
+ If you are interested in (a) becoming a member of the development team,
+ (b) collaborating on research using the OCCAM software, and/or (c) 
+being on the OCCAM mailing list, please email <a mailto="zwick@pdx.edu">Dr. Zwick</a>.</p></div>
+</div>
+
+</td>
+<td id="PSUMarginRight"> </td>
+</tr>
+</tbody>
+</table>
+
+
+
+</body></html>
